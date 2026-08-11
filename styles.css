@@ -232,6 +232,11 @@ body[data-page="play-case-study"].grain::before {
   margin-top: 64px;
 }
 
+.page--home .stack-lg {
+  width: min(80vw, 1200px);
+  margin-inline: auto;
+}
+
 .project-card {
   display: grid;
   gap: 16px;
@@ -279,7 +284,8 @@ body[data-page="play-case-study"].grain::before {
 }
 
 .visual-landscape {
-  aspect-ratio: 1024 / 552;
+  aspect-ratio: auto;
+  height: 552px;
   overflow: visible;
   background: transparent;
 }
@@ -309,9 +315,9 @@ body[data-page="play-case-study"].grain::before {
 }
 
 .visual-landscape .phone-stage {
-  inset: 31px auto auto 393px;
+  inset: 32px auto auto 50%;
   width: 238px;
-  transform: none;
+  transform: translateX(-50%);
 }
 
 .project-reel {
@@ -1088,6 +1094,10 @@ body[data-page="play-case-study"].grain::before {
     margin-top: 52px;
   }
 
+  .page--home .stack-lg {
+    width: calc(100vw - 46px);
+  }
+
   .project-meta {
     flex-direction: column;
     gap: 8px;
@@ -1098,6 +1108,7 @@ body[data-page="play-case-study"].grain::before {
   }
 
   .visual-landscape {
+    height: auto;
     aspect-ratio: 5 / 6.1;
   }
 
