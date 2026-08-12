@@ -1,4 +1,4 @@
-import { siteData } from "./content.js?v=20260812g";
+import { siteData } from "./content.js?v=20260812n";
 
 const app = document.querySelector("#app");
 const page = document.body.dataset.page;

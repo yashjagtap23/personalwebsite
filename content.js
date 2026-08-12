@@ -51,7 +51,7 @@ export const siteData = {
         kicker: "Product Design, Prototyping",
         variant: "landscape-overlay",
         image: "assets/generated/nurish-phones-bg-v1.png",
-        overlayImage: "assets/generated/nurish-phones-overlay-framed-v1.png",
+        overlayImage: "assets/generated/nurish-phones-overlay-framed-v9.png?v=20260812n",
         overlayStageClass: "phone-stage--wide"
       },
       {
