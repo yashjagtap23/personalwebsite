@@ -42,8 +42,8 @@ export const siteData = {
         title: "Lightweight interactions for sketching out songs",
         kicker: "Product Design, Prototyping",
         variant: "landscape-overlay",
-        image: "https://framerusercontent.com/images/cJXGYhxzM4X1Mo7TmJyoBIbPhzE.png?width=2912&height=1632",
-        video: "https://framerusercontent.com/assets/2WoNSvyrYbuUzlkLI0EhE5ldhs.mp4"
+        image: "assets/generated/untitled-space-bg-v1.png",
+        overlayImage: "assets/generated/group4-phone-overlay.png"
       },
       {
         href: "stitch-fromhome/",

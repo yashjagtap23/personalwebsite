@@ -314,6 +314,12 @@ body[data-page="play-case-study"].grain::before {
   transform: translateX(-50%);
 }
 
+.phone-stage__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .visual-landscape .phone-stage {
   inset: 32px auto auto 50%;
   width: 238px;

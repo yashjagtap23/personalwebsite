@@ -1,4 +1,4 @@
-import { siteData } from "./content.js?v=20260810k";
+import { siteData } from "./content.js?v=20260811e";
 
 const app = document.querySelector("#app");
 const page = document.body.dataset.page;
@@ -72,13 +72,23 @@ const footerMarkup = () => `
 
 const projectVisual = (project) => {
   if (project.variant === "landscape-overlay") {
+    const overlayMarkup = project.overlayImage
+      ? `
+          <div class="phone-stage phone-stage--image">
+            <img class="phone-stage__image" src="${project.overlayImage}" alt="">
+          </div>
+        `
+      : `
+          <div class="phone-stage">
+            ${deviceFrame({ type: "video", src: project.video }, "device-frame--compact")}
+          </div>
+        `;
+
     return `
       <div class="project-visual visual-landscape">
         <div class="project-visual__core">
           <img src="${project.image}" alt="${escapeHtml(project.title)}">
-          <div class="phone-stage">
-            ${deviceFrame({ type: "video", src: project.video }, "device-frame--compact")}
-          </div>
+          ${overlayMarkup}
         </div>
         ${
           project.sideVideo
