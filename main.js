@@ -1,4 +1,4 @@
-import { siteData } from "./content.js?v=20260812e";
+import { siteData } from "./content.js?v=20260812g";
 
 const app = document.querySelector("#app");
 const page = document.body.dataset.page;
@@ -74,7 +74,7 @@ const projectVisual = (project) => {
   if (project.variant === "landscape-overlay") {
     const overlayMarkup = project.overlayImage
       ? `
-          <div class="phone-stage phone-stage--image">
+          <div class="phone-stage phone-stage--image ${project.overlayStageClass || ""}">
             <img class="phone-stage__image" src="${project.overlayImage}" alt="">
           </div>
         `

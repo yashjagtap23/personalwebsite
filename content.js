@@ -51,7 +51,8 @@ export const siteData = {
         kicker: "Product Design, Prototyping",
         variant: "landscape-overlay",
         image: "assets/generated/nurish-phones-bg-v1.png",
-        video: "https://framerusercontent.com/assets/Q9aovHEExM52p9rqOv1SzxmPVw.mp4"
+        overlayImage: "assets/generated/nurish-phones-overlay-framed-v1.png",
+        overlayStageClass: "phone-stage--wide"
       },
       {
         href: "play-case-study/",

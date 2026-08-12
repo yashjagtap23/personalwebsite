@@ -325,6 +325,12 @@ body[data-page="play-case-study"].grain::before {
   transform: translateX(-50%);
 }
 
+.visual-landscape .phone-stage--wide {
+  inset: 52px auto auto 50%;
+  width: 79.1%;
+  max-width: 1215px;
+}
+
 .project-reel {
   position: absolute;
   top: 155px;
@@ -1120,6 +1126,12 @@ body[data-page="play-case-study"].grain::before {
   .phone-stage {
     inset: 36px auto auto 70%;
     width: 188px;
+  }
+
+  .visual-landscape .phone-stage--wide {
+    inset: 42px auto auto 50%;
+    width: 93%;
+    max-width: none;
   }
 
   .visual-float {
