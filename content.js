@@ -35,33 +35,30 @@ export const siteData = {
     ]
   },
   home: {
-    title: "Hi, I’m Amy, a creator that designs for creators.",
+    title: "Hi, I’m Yash, an aspiring PM and software engineer",
     projects: [
       {
         href: "untitledlyrics-fromhome/",
-        title: "Lightweight interactions for sketching out songs",
-        kicker: "Product Design, Prototyping",
+        title: "HackIllinois Official App - 2026",
+        kicker: "Product Management, Mobile Development, Product Design",
         variant: "landscape-overlay",
-        image: "assets/generated/untitled-space-bg-v1.png",
+        image: "assets/generated/bg 1 tree .png",
         overlayImage: "assets/generated/group4-phone-overlay.png"
       },
       {
         href: "stitch-fromhome/",
         title: "Simplifying complex video editing tools",
         kicker: "Product Design, Prototyping",
-        variant: "floating-phone",
+        variant: "landscape-overlay",
+        image: "assets/generated/nurish-phones-bg-v1.png",
         video: "https://framerusercontent.com/assets/Q9aovHEExM52p9rqOv1SzxmPVw.mp4"
       },
       {
         href: "play-case-study/",
         title: "Social fitness app to connect remote workers",
         kicker: "Product Design, Product Management",
-        variant: "triptych",
-        phones: [
-          "https://framerusercontent.com/images/qhQtVZrOF1DYfqafUhkUh16TqBI.jpg?width=728&height=408",
-          "https://framerusercontent.com/images/doV0LeIpA8QaRBh7T4eJBbwJmY.jpg?width=721&height=470",
-          "https://framerusercontent.com/images/f0kFgPqpaq45ydWNEMKhuYjXzpk.jpg?width=481&height=721"
-        ]
+        variant: "landscape-image",
+        image: "assets/generated/play-card-bg-v1.png"
       }
     ]
   },

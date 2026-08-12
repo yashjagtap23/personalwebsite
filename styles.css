@@ -262,7 +262,7 @@ body[data-page="play-case-study"].grain::before {
 .project-meta {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 22px;
 }
 
@@ -275,7 +275,6 @@ body[data-page="play-case-study"].grain::before {
 }
 
 .project-kicker {
-  padding-top: 2px;
   font-size: 12px;
   line-height: 14px;
   color: var(--text-soft);

@@ -1,4 +1,4 @@
-import { siteData } from "./content.js?v=20260811e";
+import { siteData } from "./content.js?v=20260812e";
 
 const app = document.querySelector("#app");
 const page = document.body.dataset.page;
@@ -95,6 +95,16 @@ const projectVisual = (project) => {
             ? `<div class="project-reel"><video src="${project.sideVideo}" autoplay muted loop playsinline></video></div>`
             : ""
         }
+      </div>
+    `;
+  }
+
+  if (project.variant === "landscape-image") {
+    return `
+      <div class="project-visual visual-landscape">
+        <div class="project-visual__core">
+          <img src="${project.image}" alt="${escapeHtml(project.title)}">
+        </div>
       </div>
     `;
   }
