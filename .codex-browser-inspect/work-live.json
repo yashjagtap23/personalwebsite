@@ -1,0 +1,37 @@
+{
+  "visible": [
+    {
+      "h": 576,
+      "text": "Creating world's first AI-powered assistant.UX Design | User ResearchXYZ Org2024",
+      "top": -112,
+      "topCss": "80px",
+      "transform": "none",
+      "z": "1"
+    },
+    {
+      "h": 576,
+      "text": "New brand look and websiteWeb Design & ImplementationBlues2024",
+      "top": -112,
+      "topCss": "96px",
+      "transform": "none",
+      "z": "1"
+    },
+    {
+      "h": 576,
+      "text": "AI-powered meditation plansProduct DesignMedify2024",
+      "top": -112,
+      "topCss": "112px",
+      "transform": "none",
+      "z": "1"
+    },
+    {
+      "h": 576,
+      "text": "New website and integrated booking platformUX DesignSwiss Chalet2024",
+      "top": -112,
+      "topCss": "136px",
+      "transform": "none",
+      "z": "1"
+    }
+  ],
+  "y": 3200
+}

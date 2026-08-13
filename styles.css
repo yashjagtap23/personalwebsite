@@ -59,6 +59,7 @@
   --nav-gap: 136px;
   --rail-width: 265px;
   --copy-width: 867px;
+  --stack-exit-space: max(44vh, 420px);
 }
 
 html {
@@ -126,6 +127,11 @@ body[data-page="play-case-study"].grain::before {
 .page {
   position: relative;
   overflow-x: clip;
+}
+
+/* Safari can jitter sticky descendants inside an overflow-clipped ancestor. */
+.page--home {
+  overflow-x: visible;
 }
 
 .shell {
@@ -237,9 +243,27 @@ body[data-page="play-case-study"].grain::before {
   margin-inline: auto;
 }
 
+.project-stack {
+  position: relative;
+  isolation: isolate;
+}
+
+.project-stack::after {
+  content: "";
+  display: block;
+  height: var(--stack-exit-space);
+}
+
 .project-card {
   display: grid;
   gap: 16px;
+}
+
+.project-card--stack {
+  position: sticky;
+  top: var(--stack-top, 80px);
+  z-index: calc(10 + var(--stack-index, 0));
+  background: var(--bg);
 }
 
 .project-link {
@@ -1038,6 +1062,7 @@ body[data-page="play-case-study"].grain::before {
 @media (max-width: 1100px) {
   :root {
     --desktop-width: 1000px;
+    --stack-exit-space: max(38vh, 320px);
   }
 
   .top-nav {
@@ -1082,6 +1107,10 @@ body[data-page="play-case-study"].grain::before {
 }
 
 @media (max-width: 760px) {
+  :root {
+    --stack-exit-space: 0px;
+  }
+
   .site-header {
     padding-top: 24px;
   }
@@ -1120,6 +1149,21 @@ body[data-page="play-case-study"].grain::before {
 
   .page--home .stack-lg {
     width: calc(100vw - 46px);
+  }
+
+  .project-stack::after {
+    display: none;
+  }
+
+  .project-card--stack {
+    position: relative;
+    top: auto;
+    z-index: auto;
+    background: transparent;
+  }
+
+  .project-stack .project-card--stack + .project-card--stack {
+    margin-top: 0;
   }
 
   .project-meta {

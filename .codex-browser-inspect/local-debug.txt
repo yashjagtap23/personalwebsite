@@ -1,0 +1,4 @@
+start
+after-goto
+after-load
+wrote-shot

@@ -132,12 +132,15 @@ const renderHome = () => `
     <section class="hero hero--home reveal" style="--delay:70ms">
       <h1>${siteData.home.title}</h1>
     </section>
-    <section class="page-section stack-lg">
+    <section class="page-section stack-lg project-stack">
       ${siteData.home.projects
         .map(
           (project, index) => `
-            <article class="project-card reveal" style="--delay:${100 + index * 55}ms">
-              <a class="project-link" href="${resolveHref(project.href)}">
+            <article
+              class="project-card project-card--stack"
+              style="--stack-index:${index}; --stack-top:${80 + index * 16}px"
+            >
+              <a class="project-link reveal" style="--delay:${100 + index * 55}ms" href="${resolveHref(project.href)}">
                 ${projectVisual(project)}
                 <div class="project-meta">
                   <div class="project-title">${project.title}</div>

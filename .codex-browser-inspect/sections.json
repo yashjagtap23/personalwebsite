@@ -1,0 +1,1349 @@
+{
+  "sections": [
+    {
+      "h": 720,
+      "i": 0,
+      "id": null,
+      "pos": "fixed",
+      "tag": "NAV",
+      "text": "YASH JAGTAPIntroWorkExperienceSkillsReferencesBlogContactGet in touch",
+      "topCss": "0px",
+      "y": 0
+    },
+    {
+      "h": 218,
+      "i": 2,
+      "id": null,
+      "pos": "relative",
+      "tag": "NAV",
+      "text": "IntroWorkExperienceSkillsReferencesBlogContact",
+      "topCss": "0px",
+      "y": 272
+    },
+    {
+      "h": 460,
+      "i": 12,
+      "id": "hero",
+      "pos": "relative",
+      "tag": "SECTION",
+      "text": "Open to New ProjectsI turn ideas into meaningful design solutions that inspire.Get in touchMy work",
+      "topCss": "0px",
+      "y": 0
+    },
+    {
+      "h": 354,
+      "i": 13,
+      "id": null,
+      "pos": "absolute",
+      "tag": "DIV",
+      "text": "Open to New ProjectsI turn ideas into meaningful design solutions that inspire.Get in touchMy work",
+      "topCss": "223px",
+      "y": 223
+    },
+    {
+      "h": 354,
+      "i": 14,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Open to New ProjectsI turn ideas into meaningful design solutions that inspire.Get in touchMy work",
+      "topCss": "0px",
+      "y": 223
+    },
+    {
+      "h": 267,
+      "i": 15,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Open to New ProjectsI turn ideas into meaningful design solutions that inspire.",
+      "topCss": "0px",
+      "y": 223
+    },
+    {
+      "h": 230,
+      "i": 18,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "I turn ideas into meaningful design solutions that inspire.",
+      "topCss": "0px",
+      "y": 260
+    },
+    {
+      "h": 3024,
+      "i": 24,
+      "id": "work",
+      "pos": "relative",
+      "tag": "SECTION",
+      "text": "Creating world's first AI-powered assistant.UX Design | User ResearchXYZ Org2024New brand look and websiteWeb Design & ImplementationBlues20",
+      "topCss": "0px",
+      "y": 640
+    },
+    {
+      "h": 576,
+      "i": 25,
+      "id": null,
+      "pos": "relative",
+      "tag": "A",
+      "text": "Creating world's first AI-powered assistant.UX Design | User ResearchXYZ Org2024",
+      "topCss": "0px",
+      "y": 640
+    },
+    {
+      "h": 504,
+      "i": 26,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 640
+    },
+    {
+      "h": 824,
+      "i": 27,
+      "id": null,
+      "pos": "absolute",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "-160px",
+      "y": 302
+    },
+    {
+      "h": 500,
+      "i": 28,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 642
+    },
+    {
+      "h": 500,
+      "i": 29,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 642
+    },
+    {
+      "h": 72,
+      "i": 30,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Creating world's first AI-powered assistant.UX Design | User ResearchXYZ Org2024",
+      "topCss": "0px",
+      "y": 1144
+    },
+    {
+      "h": 56,
+      "i": 31,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Creating world's first AI-powered assistant.UX Design | User Research",
+      "topCss": "0px",
+      "y": 1160
+    },
+    {
+      "h": 23,
+      "i": 32,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Creating world's first AI-powered assistant.",
+      "topCss": "0px",
+      "y": 1160
+    },
+    {
+      "h": 21,
+      "i": 33,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "UX Design | User Research",
+      "topCss": "0px",
+      "y": 1195
+    },
+    {
+      "h": 576,
+      "i": 40,
+      "id": null,
+      "pos": "relative",
+      "tag": "A",
+      "text": "New brand look and websiteWeb Design & ImplementationBlues2024",
+      "topCss": "0px",
+      "y": 1456
+    },
+    {
+      "h": 504,
+      "i": 41,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 1456
+    },
+    {
+      "h": 824,
+      "i": 42,
+      "id": null,
+      "pos": "absolute",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "-160px",
+      "y": 996
+    },
+    {
+      "h": 500,
+      "i": 43,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 1458
+    },
+    {
+      "h": 500,
+      "i": 44,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 1458
+    },
+    {
+      "h": 72,
+      "i": 45,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "New brand look and websiteWeb Design & ImplementationBlues2024",
+      "topCss": "0px",
+      "y": 1960
+    },
+    {
+      "h": 56,
+      "i": 46,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "New brand look and websiteWeb Design & Implementation",
+      "topCss": "0px",
+      "y": 1976
+    },
+    {
+      "h": 23,
+      "i": 47,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "New brand look and website",
+      "topCss": "0px",
+      "y": 1976
+    },
+    {
+      "h": 21,
+      "i": 48,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Web Design & Implementation",
+      "topCss": "0px",
+      "y": 2011
+    },
+    {
+      "h": 576,
+      "i": 55,
+      "id": null,
+      "pos": "relative",
+      "tag": "A",
+      "text": "AI-powered meditation plansProduct DesignMedify2024",
+      "topCss": "0px",
+      "y": 2272
+    },
+    {
+      "h": 504,
+      "i": 56,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 2272
+    },
+    {
+      "h": 824,
+      "i": 57,
+      "id": null,
+      "pos": "absolute",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "-160px",
+      "y": 1812
+    },
+    {
+      "h": 500,
+      "i": 58,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 2274
+    },
+    {
+      "h": 500,
+      "i": 59,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 2274
+    },
+    {
+      "h": 72,
+      "i": 60,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "AI-powered meditation plansProduct DesignMedify2024",
+      "topCss": "0px",
+      "y": 2776
+    },
+    {
+      "h": 56,
+      "i": 61,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "AI-powered meditation plansProduct Design",
+      "topCss": "0px",
+      "y": 2792
+    },
+    {
+      "h": 23,
+      "i": 62,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "AI-powered meditation plans",
+      "topCss": "0px",
+      "y": 2792
+    },
+    {
+      "h": 576,
+      "i": 70,
+      "id": null,
+      "pos": "relative",
+      "tag": "A",
+      "text": "New website and integrated booking platformUX DesignSwiss Chalet2024",
+      "topCss": "0px",
+      "y": 3088
+    },
+    {
+      "h": 504,
+      "i": 71,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 3088
+    },
+    {
+      "h": 824,
+      "i": 72,
+      "id": null,
+      "pos": "absolute",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "-160px",
+      "y": 2628
+    },
+    {
+      "h": 500,
+      "i": 73,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 3090
+    },
+    {
+      "h": 500,
+      "i": 74,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 3090
+    },
+    {
+      "h": 72,
+      "i": 75,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "New website and integrated booking platformUX DesignSwiss Chalet2024",
+      "topCss": "0px",
+      "y": 3592
+    },
+    {
+      "h": 56,
+      "i": 76,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "New website and integrated booking platformUX Design",
+      "topCss": "0px",
+      "y": 3608
+    },
+    {
+      "h": 23,
+      "i": 77,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "New website and integrated booking platform",
+      "topCss": "0px",
+      "y": 3608
+    },
+    {
+      "h": 913,
+      "i": 85,
+      "id": "experience",
+      "pos": "relative",
+      "tag": "SECTION",
+      "text": "Work experiencePixelCraft StudioLead UI/UX Designer (2021 - 2024)At PixelCraft Studio, I led the UI/UX design for a range of digital product",
+      "topCss": "0px",
+      "y": 3844
+    },
+    {
+      "h": 743,
+      "i": 87,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "PixelCraft StudioLead UI/UX Designer (2021 - 2024)At PixelCraft Studio, I led the UI/UX design for a range of digital products, from mobile ",
+      "topCss": "0px",
+      "y": 3934
+    },
+    {
+      "h": 219,
+      "i": 88,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "PixelCraft StudioLead UI/UX Designer (2021 - 2024)At PixelCraft Studio, I led the UI/UX design for a range of digital products, from mobile ",
+      "topCss": "0px",
+      "y": 3950
+    },
+    {
+      "h": 93,
+      "i": 91,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Lead UI/UX Designer (2021 - 2024)At PixelCraft Studio, I led the UI/UX design for a range of digital products, from mobile apps to web platf",
+      "topCss": "0px",
+      "y": 4076
+    },
+    {
+      "h": 21,
+      "i": 92,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Lead UI/UX Designer (2021 - 2024)",
+      "topCss": "0px",
+      "y": 4076
+    },
+    {
+      "h": 62,
+      "i": 93,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "At PixelCraft Studio, I led the UI/UX design for a range of digital products, from mobile apps to web platforms. My role involved closely co",
+      "topCss": "0px",
+      "y": 4107
+    },
+    {
+      "h": 198,
+      "i": 94,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "CreativeMinds AgencySenior Product Designer (2019 - 2021)As a Senior Product Designer at CreativeMinds, I worked on a wide variety of brandi",
+      "topCss": "0px",
+      "y": 4233
+    },
+    {
+      "h": 72,
+      "i": 97,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Senior Product Designer (2019 - 2021)As a Senior Product Designer at CreativeMinds, I worked on a wide variety of branding and web design pr",
+      "topCss": "0px",
+      "y": 4359
+    },
+    {
+      "h": 21,
+      "i": 98,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Senior Product Designer (2019 - 2021)",
+      "topCss": "0px",
+      "y": 4359
+    },
+    {
+      "h": 42,
+      "i": 99,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "As a Senior Product Designer at CreativeMinds, I worked on a wide variety of branding and web design projects for clients across industries,",
+      "topCss": "0px",
+      "y": 4389
+    },
+    {
+      "h": 198,
+      "i": 100,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Next SolutionsGraphic Designer (2017 - 2019)At DesignSphere Solutions, I focused on branding, print design, and visual identity creation. My",
+      "topCss": "0px",
+      "y": 4495
+    },
+    {
+      "h": 72,
+      "i": 103,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Graphic Designer (2017 - 2019)At DesignSphere Solutions, I focused on branding, print design, and visual identity creation. My work contribu",
+      "topCss": "0px",
+      "y": 4621
+    },
+    {
+      "h": 21,
+      "i": 104,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Graphic Designer (2017 - 2019)",
+      "topCss": "0px",
+      "y": 4621
+    },
+    {
+      "h": 42,
+      "i": 105,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "At DesignSphere Solutions, I focused on branding, print design, and visual identity creation. My work contributed to building cohesive, memo",
+      "topCss": "0px",
+      "y": 4651
+    },
+    {
+      "h": 995,
+      "i": 106,
+      "id": "skills",
+      "pos": "relative",
+      "tag": "SECTION",
+      "text": "What I doUX DesignFrom wireframes to user journeys I utilise various UX techniques to deliver world-class experience.Visual DesignProficient",
+      "topCss": "0px",
+      "y": 4937
+    },
+    {
+      "h": 417,
+      "i": 107,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "What I doUX DesignFrom wireframes to user journeys I utilise various UX techniques to deliver world-class experience.Visual DesignProficient",
+      "topCss": "0px",
+      "y": 4937
+    },
+    {
+      "h": 206,
+      "i": 109,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "UX DesignFrom wireframes to user journeys I utilise various UX techniques to deliver world-class experience.Visual DesignProficient in creat",
+      "topCss": "0px",
+      "y": 5067
+    },
+    {
+      "h": 91,
+      "i": 110,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "UX DesignFrom wireframes to user journeys I utilise various UX techniques to deliver world-class experience.",
+      "topCss": "0px",
+      "y": 5083
+    },
+    {
+      "h": 91,
+      "i": 114,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Visual DesignProficient in creating visually compelling designs that align with brand identity and aesthetics.",
+      "topCss": "0px",
+      "y": 5083
+    },
+    {
+      "h": 80,
+      "i": 118,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "PrototypingAdept at creating interactive prototypes using tools like Figma.",
+      "topCss": "0px",
+      "y": 5199
+    },
+    {
+      "h": 80,
+      "i": 122,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "User ResearchExperienced in conducting user research, usability testing.",
+      "topCss": "0px",
+      "y": 5199
+    },
+    {
+      "h": 498,
+      "i": 126,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "The tools I'm usingDesignyWeb Design & Implementation.ProtpsyWeb Design & DevelopmentIpsumInteractive animationsTestPlatformUser testingTool",
+      "topCss": "0px",
+      "y": 5434
+    },
+    {
+      "h": 288,
+      "i": 128,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "DesignyWeb Design & Implementation.ProtpsyWeb Design & DevelopmentIpsumInteractive animationsTestPlatformUser testingToolWeb Design & Implem",
+      "topCss": "0px",
+      "y": 5564
+    },
+    {
+      "h": 80,
+      "i": 129,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "DesignyWeb Design & Implementation.",
+      "topCss": "0px",
+      "y": 5580
+    },
+    {
+      "h": 80,
+      "i": 134,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "ProtpsyWeb Design & Development",
+      "topCss": "0px",
+      "y": 5580
+    },
+    {
+      "h": 80,
+      "i": 139,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "IpsumInteractive animations",
+      "topCss": "0px",
+      "y": 5684
+    },
+    {
+      "h": 80,
+      "i": 144,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "TestPlatformUser testing",
+      "topCss": "0px",
+      "y": 5684
+    },
+    {
+      "h": 80,
+      "i": 149,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "ToolWeb Design & Implementation",
+      "topCss": "0px",
+      "y": 5788
+    },
+    {
+      "h": 1505,
+      "i": 159,
+      "id": "references",
+      "pos": "relative",
+      "tag": "SECTION",
+      "text": "References\"Alex has an exceptional ability to collaborate across teams, ensuring the final product is not only visually beautiful but techni",
+      "topCss": "0px",
+      "y": 6112
+    },
+    {
+      "h": 306,
+      "i": 161,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex has an exceptional ability to collaborate across teams, ensuring the final product is not only visually beautiful but technically soun",
+      "topCss": "0px",
+      "y": 6243
+    },
+    {
+      "h": 306,
+      "i": 162,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex has an exceptional ability to collaborate across teams, ensuring the final product is not only visually beautiful but technically soun",
+      "topCss": "0px",
+      "y": 6259
+    },
+    {
+      "h": 269,
+      "i": 163,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex has an exceptional ability to collaborate across teams, ensuring the final product is not only visually beautiful but technically soun",
+      "topCss": "0px",
+      "y": 6259
+    },
+    {
+      "h": 21,
+      "i": 165,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Senior developer, Pixelcraft studio",
+      "topCss": "0px",
+      "y": 6543
+    },
+    {
+      "h": 272,
+      "i": 167,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex brings a fresh perspective to every project. Their innovative ideas and dedication to detail transformed the way we approached our des",
+      "topCss": "0px",
+      "y": 6628
+    },
+    {
+      "h": 272,
+      "i": 169,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex brings a fresh perspective to every project. Their innovative ideas and dedication to detail transformed the way we approached our des",
+      "topCss": "0px",
+      "y": 6644
+    },
+    {
+      "h": 235,
+      "i": 170,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex brings a fresh perspective to every project. Their innovative ideas and dedication to detail transformed the way we approached our des",
+      "topCss": "0px",
+      "y": 6644
+    },
+    {
+      "h": 21,
+      "i": 172,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Creative Director, Waveform digital",
+      "topCss": "0px",
+      "y": 6895
+    },
+    {
+      "h": 272,
+      "i": 173,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex has a unique ability to understand a brand’s vision and translate it into a digital experience that feels both modern and timeless. Th",
+      "topCss": "0px",
+      "y": 6980
+    },
+    {
+      "h": 272,
+      "i": 174,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex has a unique ability to understand a brand’s vision and translate it into a digital experience that feels both modern and timeless. Th",
+      "topCss": "0px",
+      "y": 6996
+    },
+    {
+      "h": 235,
+      "i": 175,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex has a unique ability to understand a brand’s vision and translate it into a digital experience that feels both modern and timeless. Th",
+      "topCss": "0px",
+      "y": 6996
+    },
+    {
+      "h": 205,
+      "i": 179,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex’s approach to design is deeply rooted in empathy for the user. They take the time to understand user pain points, and their solutions ",
+      "topCss": "0px",
+      "y": 7332
+    },
+    {
+      "h": 205,
+      "i": 181,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex’s approach to design is deeply rooted in empathy for the user. They take the time to understand user pain points, and their solutions ",
+      "topCss": "0px",
+      "y": 7348
+    },
+    {
+      "h": 168,
+      "i": 182,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "\"Alex’s approach to design is deeply rooted in empathy for the user. They take the time to understand user pain points, and their solutions ",
+      "topCss": "0px",
+      "y": 7348
+    },
+    {
+      "h": 21,
+      "i": 184,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "UX Researcher, Horizon Labs",
+      "topCss": "0px",
+      "y": 7532
+    },
+    {
+      "h": 814,
+      "i": 185,
+      "id": "blog",
+      "pos": "relative",
+      "tag": "SECTION",
+      "text": "My blogJul 12, 2024Creating Responsive Design PortfolioApr 8, 2024How Minimalism Enhances User ExperienceMar 15, 2024The Power of Typography",
+      "topCss": "0px",
+      "y": 7797
+    },
+    {
+      "h": 603,
+      "i": 187,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Jul 12, 2024Creating Responsive Design PortfolioApr 8, 2024How Minimalism Enhances User ExperienceMar 15, 2024The Power of Typography in Por",
+      "topCss": "0px",
+      "y": 7927
+    },
+    {
+      "h": 67,
+      "i": 188,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Jul 12, 2024Creating Responsive Design Portfolio",
+      "topCss": "0px",
+      "y": 7975
+    },
+    {
+      "h": 34,
+      "i": 190,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Creating Responsive Design Portfolio",
+      "topCss": "0px",
+      "y": 8008
+    },
+    {
+      "h": 67,
+      "i": 191,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Apr 8, 2024How Minimalism Enhances User Experience",
+      "topCss": "0px",
+      "y": 8106
+    },
+    {
+      "h": 34,
+      "i": 193,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "How Minimalism Enhances User Experience",
+      "topCss": "0px",
+      "y": 8139
+    },
+    {
+      "h": 67,
+      "i": 194,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Mar 15, 2024The Power of Typography in Portfolio Design",
+      "topCss": "0px",
+      "y": 8237
+    },
+    {
+      "h": 34,
+      "i": 196,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "The Power of Typography in Portfolio Design",
+      "topCss": "0px",
+      "y": 8270
+    },
+    {
+      "h": 67,
+      "i": 197,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Feb 28, 2024Dark Mode for Designers: Why Black is the New White",
+      "topCss": "0px",
+      "y": 8367
+    },
+    {
+      "h": 34,
+      "i": 199,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Dark Mode for Designers: Why Black is the New White",
+      "topCss": "0px",
+      "y": 8400
+    },
+    {
+      "h": 1244,
+      "i": 202,
+      "id": "contact",
+      "pos": "relative",
+      "tag": "SECTION",
+      "text": "I'm AlexA passionate designer focused on crafting meaningful, user-centered digital experiences. With over 7 years of experience working wit",
+      "topCss": "0px",
+      "y": 8791
+    },
+    {
+      "h": 1244,
+      "i": 203,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "I'm AlexA passionate designer focused on crafting meaningful, user-centered digital experiences. With over 7 years of experience working wit",
+      "topCss": "0px",
+      "y": 8791
+    },
+    {
+      "h": 1244,
+      "i": 204,
+      "id": null,
+      "pos": "sticky",
+      "tag": "DIV",
+      "text": "I'm AlexA passionate designer focused on crafting meaningful, user-centered digital experiences. With over 7 years of experience working wit",
+      "topCss": "80px",
+      "y": 8791
+    },
+    {
+      "h": 178,
+      "i": 205,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "I'm AlexA passionate designer focused on crafting meaningful, user-centered digital experiences. With over 7 years of experience working wit",
+      "topCss": "0px",
+      "y": 8871
+    },
+    {
+      "h": 104,
+      "i": 207,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "A passionate designer focused on crafting meaningful, user-centered digital experiences. With over 7 years of experience working with brands",
+      "topCss": "0px",
+      "y": 8961
+    },
+    {
+      "h": 690,
+      "i": 208,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "My servicesLanding page design$1999Responsive design (optimized for mobile, tablet, and desktop)Basic SEO setupDelivery 2 weeksFull Website ",
+      "topCss": "0px",
+      "y": 9129
+    },
+    {
+      "h": 617,
+      "i": 210,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Landing page design$1999Responsive design (optimized for mobile, tablet, and desktop)Basic SEO setupDelivery 2 weeksFull Website Design$2999",
+      "topCss": "0px",
+      "y": 9203
+    },
+    {
+      "h": 196,
+      "i": 211,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Landing page design$1999Responsive design (optimized for mobile, tablet, and desktop)Basic SEO setupDelivery 2 weeks",
+      "topCss": "0px",
+      "y": 9219
+    },
+    {
+      "h": 516,
+      "i": 212,
+      "id": null,
+      "pos": "absolute",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "-160px",
+      "y": 8759
+    },
+    {
+      "h": 192,
+      "i": 213,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Landing page design$1999Responsive design (optimized for mobile, tablet, and desktop)Basic SEO setupDelivery 2 weeks",
+      "topCss": "0px",
+      "y": 9221
+    },
+    {
+      "h": 21,
+      "i": 214,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Landing page design$1999",
+      "topCss": "0px",
+      "y": 9245
+    },
+    {
+      "h": 99,
+      "i": 215,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Responsive design (optimized for mobile, tablet, and desktop)Basic SEO setupDelivery 2 weeks",
+      "topCss": "0px",
+      "y": 9290
+    },
+    {
+      "h": 42,
+      "i": 216,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Responsive design (optimized for mobile, tablet, and desktop)",
+      "topCss": "0px",
+      "y": 9290
+    },
+    {
+      "h": 196,
+      "i": 219,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Full Website Design$2999Custom website design (5 pages: Home, About, Services, Portfolio, Contact)Responsive design for all devicesDelivery ",
+      "topCss": "0px",
+      "y": 9439
+    },
+    {
+      "h": 516,
+      "i": 220,
+      "id": null,
+      "pos": "absolute",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "-160px",
+      "y": 8979
+    },
+    {
+      "h": 192,
+      "i": 221,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Full Website Design$2999Custom website design (5 pages: Home, About, Services, Portfolio, Contact)Responsive design for all devicesDelivery ",
+      "topCss": "0px",
+      "y": 9441
+    },
+    {
+      "h": 21,
+      "i": 222,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Full Website Design$2999",
+      "topCss": "0px",
+      "y": 9465
+    },
+    {
+      "h": 99,
+      "i": 223,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Custom website design (5 pages: Home, About, Services, Portfolio, Contact)Responsive design for all devicesDelivery 3 - 5 weeks",
+      "topCss": "0px",
+      "y": 9510
+    },
+    {
+      "h": 42,
+      "i": 224,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Custom website design (5 pages: Home, About, Services, Portfolio, Contact)",
+      "topCss": "0px",
+      "y": 9510
+    },
+    {
+      "h": 21,
+      "i": 225,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Responsive design for all devices",
+      "topCss": "0px",
+      "y": 9560
+    },
+    {
+      "h": 176,
+      "i": 227,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "App Design$4000Custom App DesignResponsive design for all devicesDelivery 3 - 5 weeks",
+      "topCss": "0px",
+      "y": 9660
+    },
+    {
+      "h": 496,
+      "i": 228,
+      "id": null,
+      "pos": "absolute",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "-160px",
+      "y": 9200
+    },
+    {
+      "h": 172,
+      "i": 229,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "App Design$4000Custom App DesignResponsive design for all devicesDelivery 3 - 5 weeks",
+      "topCss": "0px",
+      "y": 9662
+    },
+    {
+      "h": 78,
+      "i": 231,
+      "id": null,
+      "pos": "relative",
+      "tag": "DIV",
+      "text": "Custom App DesignResponsive design for all devicesDelivery 3 - 5 weeks",
+      "topCss": "0px",
+      "y": 9731
+    }
+  ],
+  "sticky": [
+    {
+      "className": "framer-13f8jmi hidden-8zatfj hidden-jgmhwn",
+      "h": 720,
+      "i": 35,
+      "id": null,
+      "pos": "fixed",
+      "tag": "NAV",
+      "text": "YASH JAGTAPIntroWorkExperienceSkillsReferencesBlogContactGet in touch",
+      "topCss": "0px",
+      "y": 0
+    },
+    {
+      "className": "framer-1wsmd73-container",
+      "h": 576,
+      "i": 121,
+      "id": null,
+      "pos": "sticky",
+      "tag": "DIV",
+      "text": "Creating world's first AI-powered assistant.UX Design | User ResearchXYZ Org2024",
+      "topCss": "80px",
+      "y": 640
+    },
+    {
+      "className": "framer-1x7j55y-container",
+      "h": 576,
+      "i": 152,
+      "id": null,
+      "pos": "sticky",
+      "tag": "DIV",
+      "text": "New brand look and websiteWeb Design & ImplementationBlues2024",
+      "topCss": "96px",
+      "y": 1456
+    },
+    {
+      "className": "framer-8jlnd2-container",
+      "h": 576,
+      "i": 183,
+      "id": null,
+      "pos": "sticky",
+      "tag": "DIV",
+      "text": "AI-powered meditation plansProduct DesignMedify2024",
+      "topCss": "112px",
+      "y": 2272
+    },
+    {
+      "className": "framer-1hvmey5-container",
+      "h": 576,
+      "i": 214,
+      "id": null,
+      "pos": "sticky",
+      "tag": "DIV",
+      "text": "New website and integrated booking platformUX DesignSwiss Chalet2024",
+      "topCss": "136px",
+      "y": 3088
+    },
+    {
+      "className": "framer-1542v6q",
+      "h": 1244,
+      "i": 551,
+      "id": null,
+      "pos": "sticky",
+      "tag": "DIV",
+      "text": "I'm AlexA passionate designer focused on crafting meaningful, user-centered digital experiences. With over 7 years of ex",
+      "topCss": "80px",
+      "y": 8791
+    },
+    {
+      "className": "framer-1lnbg5v",
+      "h": 576,
+      "i": 676,
+      "id": null,
+      "pos": "sticky",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "80px",
+      "y": 8807
+    },
+    {
+      "className": "framer-178n91f",
+      "h": 576,
+      "i": 677,
+      "id": null,
+      "pos": "sticky",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "80px",
+      "y": 8823
+    },
+    {
+      "className": "",
+      "h": 78,
+      "i": 759,
+      "id": "__framer-badge-container",
+      "pos": "fixed",
+      "tag": "DIV",
+      "text": "Create a free website with Framer, the website builder loved by startups, designers and agencies.",
+      "topCss": "642px",
+      "y": 642
+    },
+    {
+      "className": "",
+      "h": 30,
+      "i": 792,
+      "id": "__framer-editorbar-container",
+      "pos": "fixed",
+      "tag": "DIV",
+      "text": "Edit Content",
+      "topCss": "345px",
+      "y": 345
+    },
+    {
+      "className": "",
+      "h": 23,
+      "i": 793,
+      "id": "__framer-editorbar-label",
+      "pos": "fixed",
+      "tag": "SPAN",
+      "text": "Edit Content",
+      "topCss": "3.75px",
+      "y": 349
+    },
+    {
+      "className": "status_visually_hidden",
+      "h": 720,
+      "i": 798,
+      "id": "__framer-editorbar",
+      "pos": "fixed",
+      "tag": "IFRAME",
+      "text": "",
+      "topCss": "0px",
+      "y": 0
+    },
+    {
+      "className": "",
+      "h": 720,
+      "i": 799,
+      "id": "codex-browser-sidebar-comments-root",
+      "pos": "fixed",
+      "tag": "DIV",
+      "text": "",
+      "topCss": "0px",
+      "y": 0
+    }
+  ]
+}
