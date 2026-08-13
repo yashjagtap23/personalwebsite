@@ -39,16 +39,16 @@ export const siteData = {
     projects: [
       {
         href: "untitledlyrics-fromhome/",
-        title: "HackIllinois Official App - 2026",
-        kicker: "Product Management, Mobile Development, Product Design",
+        title: "HackIllinois Event App - 2026",
+        kicker: "Product Management, Product Design",
         variant: "landscape-overlay",
         image: "assets/generated/bg 1 tree .png",
         overlayImage: "assets/generated/group4-phone-overlay.png"
       },
       {
         href: "stitch-fromhome/",
-        title: "Simplifying complex video editing tools",
-        kicker: "Product Design, Prototyping",
+        title: "Nurish - Nutrition Tracker",
+        kicker: "Product Design, Software Engineering",
         variant: "landscape-overlay",
         image: "assets/generated/nurish-phones-bg-v1.png",
         overlayImage: "assets/generated/nurish-phones-overlay-framed-v9.png?v=20260812n",
@@ -56,10 +56,12 @@ export const siteData = {
       },
       {
         href: "play-case-study/",
-        title: "Social fitness app to connect remote workers",
-        kicker: "Product Design, Product Management",
-        variant: "landscape-image",
-        image: "assets/generated/play-card-bg-v1.png"
+        title: "HackIllinois Event App - 2025",
+        kicker: "Product Management, Software Engineering",
+        variant: "landscape-overlay",
+        image: "assets/generated/play-card-bg-v1.png",
+        overlayImage: "assets/generated/play-card-phones-overlay.png",
+        overlayStageClass: "phone-stage--play"
       }
     ]
   },

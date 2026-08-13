@@ -331,6 +331,19 @@ body[data-page="play-case-study"].grain::before {
   max-width: 1215px;
 }
 
+.visual-landscape .phone-stage--play {
+  inset: auto;
+  top: 50%;
+  left: 50%;
+  width: 58%;
+  max-width: 700px;
+  transform: translate(-50%, -50%);
+}
+
+.visual-landscape .phone-stage--play .phone-stage__image {
+  filter: drop-shadow(0 28px 36px rgba(52, 42, 26, 0.16));
+}
+
 .project-reel {
   position: absolute;
   top: 155px;
@@ -1132,6 +1145,15 @@ body[data-page="play-case-study"].grain::before {
     inset: 42px auto auto 50%;
     width: 93%;
     max-width: none;
+  }
+
+  .visual-landscape .phone-stage--play {
+    inset: auto;
+    top: 51%;
+    left: 50%;
+    width: 96%;
+    max-width: none;
+    transform: translate(-50%, -50%);
   }
 
   .visual-float {
