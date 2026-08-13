@@ -138,9 +138,9 @@ const renderHome = () => `
           (project, index) => `
             <article
               class="project-card project-card--stack"
-              style="--stack-index:${index}; --stack-top:${80 + index * 16}px"
+              style="--stack-index:${index}; --stack-top:${80 + index * 8}px; --stack-inset:${(siteData.home.projects.length - index - 1) * 16}px"
             >
-              <a class="project-link reveal" style="--delay:${100 + index * 55}ms" href="${resolveHref(project.href)}">
+              <a class="project-link" href="${resolveHref(project.href)}">
                 ${projectVisual(project)}
                 <div class="project-meta">
                   <div class="project-title">${project.title}</div>
