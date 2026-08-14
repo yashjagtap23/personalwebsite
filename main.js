@@ -141,6 +141,7 @@ const renderHome = () => `
               style="--stack-index:${index}; --stack-top:${80 + index * 8}px; --stack-inset:${(siteData.home.projects.length - index - 1) * 16}px"
             >
               <a class="project-link" href="${resolveHref(project.href)}">
+                <span class="project-action" aria-hidden="true">&#8599;</span>
                 ${projectVisual(project)}
                 <div class="project-meta">
                   <div class="project-title">${project.title}</div>
