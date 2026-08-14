@@ -469,6 +469,21 @@ const observer = new IntersectionObserver(
 
 document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
 
+const projectStack = document.querySelector(".project-stack");
+if (projectStack) {
+  const suspendProjectHover = () => {
+    if (projectStack.matches(":hover")) {
+      projectStack.classList.add("is-hover-suspended");
+    }
+  };
+
+  window.addEventListener("wheel", suspendProjectHover, { passive: true });
+  window.addEventListener("scroll", suspendProjectHover, { passive: true });
+  projectStack.addEventListener("pointerleave", () => {
+    projectStack.classList.remove("is-hover-suspended");
+  });
+}
+
 const sectionLinks = Array.from(document.querySelectorAll(".case-nav a"));
 if (sectionLinks.length) {
   const sectionMap = sectionLinks

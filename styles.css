@@ -283,6 +283,10 @@ body[data-page="play-case-study"].grain::before {
   transform: scale(1.012);
 }
 
+.project-stack.is-hover-suspended .project-link:hover {
+  transform: none;
+}
+
 .project-visual {
   position: relative;
   overflow: hidden;
