@@ -1078,8 +1078,8 @@ body[data-page="play-case-study"].grain::before {
 
 .device-frame--solution {
   width: 189px;
-  aspect-ratio: 0.462;
-  padding: 6px 6px 18px;
+  aspect-ratio: 0.472;
+  padding: 6px 6px 2px;
   border-radius: 34px;
   background: linear-gradient(180deg, #25282b 0%, #111315 100%);
   box-shadow:
@@ -1530,7 +1530,7 @@ body[data-page="play-case-study"].grain::before {
 
   .device-frame--solution {
     width: min(188px, 100%);
-    padding: 4px 4px 12px;
+    padding: 4px 4px 2px;
   }
 
   .solution-sequence__strip {
