@@ -158,16 +158,16 @@ export const siteData = {
           paragraphs: [],
           insights: [
             {
-              image: "assets/generated/hackillinois-case-hero-v1.png",
-              body: "Attendees needed one place to keep up with ceremonies, workshops, sponsor events, meals, and deadlines throughout the weekend."
+              image: "assets/generated/hackillinois-research-overload-v1.png",
+              body: "Deciding what to go to next is one of the biggest pain points attendees face at fast-moving hackathons."
             },
             {
-              image: "assets/generated/untitled-space-hero-v2.png",
-              body: "Because the app handled check-in, scanning, and points, it had to behave like event infrastructure rather than a nice extra."
+              image: "assets/generated/hackillinois-research-social-v1.png",
+              body: "Attendees want more than a schedule. They want ways to interact and make the weekend feel personal."
             },
             {
-              image: "assets/generated/untitled-space-bg-v2.png",
-              body: "The strongest opportunity was reducing platform hopping by making schedule, event context, and participation live in one place."
+              image: "assets/generated/hackillinois-research-infohub-v1.png",
+              body: "Attendees avoid platform hopping. They want food, locations, and event info in one place."
             }
           ]
         },
