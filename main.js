@@ -1,4 +1,4 @@
-import { siteData } from "./content.js?v=20260812n";
+import { siteData } from "./content.js?v=20260815e";
 
 const app = document.querySelector("#app");
 const page = document.body.dataset.page;
@@ -18,8 +18,8 @@ const deviceFrame = (item, className = "") => `
   <div class="device-frame ${className}">
     ${
       item.type === "video"
-        ? `<video src="${item.src}" autoplay muted loop playsinline></video>`
-        : `<img src="${item.src}" alt="">`
+        ? `<video src="${resolveHref(item.src)}" autoplay muted loop playsinline webkit-playsinline preload="auto" disablepictureinpicture disableremoteplayback></video>`
+        : `<img src="${resolveHref(item.src)}" alt="">`
     }
   </div>
 `;
@@ -157,37 +157,18 @@ const renderHome = () => `
   </main>
 `;
 
-const renderMotion = () => `
-  <main class="page page--motion shell">
-    ${navMarkup()}
-    <section class="motion-hero reveal" style="--delay:70ms">
-      <h1>${siteData.motion.title}</h1>
-      <p>${siteData.motion.description}</p>
-    </section>
-    <section class="motion-canvas reveal" style="--delay:110ms; --canvas-tone:${siteData.motion.canvasTone}; --frame-tone:${siteData.motion.frameTone}">
-      <div class="motion-window motion-window--primary">
-        <video src="${siteData.motion.videos[0]}" autoplay muted loop playsinline></video>
-      </div>
-      <div class="motion-window-row">
-        <div class="motion-window motion-window--secondary">
-          <video src="${siteData.motion.videos[1]}" autoplay muted loop playsinline></video>
-        </div>
-        <div class="motion-window motion-window--tertiary">
-          <video src="${siteData.motion.videos[2]}" autoplay muted loop playsinline></video>
-        </div>
-      </div>
-    </section>
-    ${footerMarkup()}
-  </main>
+const statMarkup = (stat) => `
+  <article class="about-badge">
+    <span>${stat.label}</span>
+    <div class="about-badge__value">${stat.value}</div>
+  </article>
 `;
 
-const badgeMarkup = (badge) => `
-  <div class="about-badge">
-    <div class="about-badge__emblem ${badge.className}">
-      <img src="${badge.image}" alt="">
-    </div>
-    <span>${badge.label}</span>
-  </div>
+const journeyMarkup = (item) => `
+  <article class="journey-card">
+    <h4>${item.title}</h4>
+    <p>${item.body}</p>
+  </article>
 `;
 
 const renderAbout = () => `
@@ -195,25 +176,30 @@ const renderAbout = () => `
     ${navMarkup()}
     <section class="about-stage">
       <div class="about-left reveal" style="--delay:70ms">
+        <article class="about-summary-card">
+          <div class="section-label">Quick Snapshot</div>
+          <p>${siteData.about.summary}</p>
+        </article>
         <div class="about-badges">
-          ${siteData.about.badges.map(badgeMarkup).join("")}
+          ${siteData.about.stats.map(statMarkup).join("")}
         </div>
-        <figure class="about-photo-card">
-          <img src="${siteData.about.heroPhoto}" alt="Amy La in San Francisco">
-        </figure>
+        <div class="journey-grid about-journey">
+          ${siteData.about.journey.map(journeyMarkup).join("")}
+        </div>
       </div>
       <div class="about-right reveal" style="--delay:110ms">
         <h1>${siteData.about.title}</h1>
-        <p class="about-intro">${siteData.about.paragraphs[0]}</p>
-        <h2>${siteData.about.lead}</h2>
-        <p class="about-body">${siteData.about.paragraphs[1]}</p>
+        <p class="about-intro">${siteData.about.lead}</p>
+        <div class="about-copy">
+          ${siteData.about.paragraphs.map((paragraph) => `<p class="about-body">${paragraph}</p>`).join("")}
+        </div>
         <div class="social-row">
           ${siteData.about.socials
-            .map((social) => `<a href="${social.href}" target="_blank" rel="noreferrer">${social.label}</a>`)
+            .map(
+              (social) =>
+                `<a href="${resolveHref(social.href)}"${isExternal(social.href) ? ' target="_blank" rel="noreferrer"' : ""}>${social.label}</a>`
+            )
             .join("")}
-        </div>
-        <div class="about-gallery">
-          ${siteData.about.gallery.map((photo) => `<img src="${photo}" alt="">`).join("")}
         </div>
       </div>
     </section>
@@ -225,10 +211,52 @@ const mediaCard = (item) => `
   <div class="media-card ${item.phone ? "media-card--phone" : ""} ${item.span || ""}"${item.ratio ? ` style="aspect-ratio:${item.ratio}"` : ""}>
     ${
       item.type === "video"
-        ? `<video src="${item.src}" autoplay muted loop playsinline></video>`
-        : `<img src="${item.src}" alt="">`
+        ? `<video src="${resolveHref(item.src)}" autoplay muted loop playsinline webkit-playsinline preload="auto" disablepictureinpicture disableremoteplayback></video>`
+        : `<img src="${resolveHref(item.src)}" alt="">`
     }
   </div>
+`;
+
+const insightTile = (item) => `
+  <article class="insight-tile">
+    <div class="insight-tile__media">
+      <img src="${resolveHref(item.image)}" alt="">
+    </div>
+    <p class="insight-tile__body">${item.body}</p>
+  </article>
+`;
+
+const solutionStepMarkup = (item) => `
+  <article class="solution-step">
+    <div class="solution-step__text">
+      <h4 class="solution-step__title">${item.title}</h4>
+      <p class="solution-step__body">${item.body}</p>
+    </div>
+    <div class="solution-step__stage">
+      ${deviceFrame({ type: "video", src: item.video }, "device-frame--solution")}
+    </div>
+  </article>
+`;
+
+const solutionSequenceMarkup = (sequence) => `
+  <article class="solution-sequence">
+    <div class="solution-step__text">
+      <h4 class="solution-step__title">${sequence.title}</h4>
+      <p class="solution-step__body">${sequence.body}</p>
+    </div>
+    <div class="solution-sequence__strip">
+      ${sequence.screens
+        .map(
+          (screen) => `
+            <figure class="solution-sequence__item">
+              ${deviceFrame({ type: "video", src: screen.video }, "device-frame--solution")}
+              <figcaption class="solution-sequence__label">${screen.label}</figcaption>
+            </figure>
+          `
+        )
+        .join("")}
+    </div>
+  </article>
 `;
 
 const sideNavMarkup = (entry) => `
@@ -277,7 +305,7 @@ const metaValueMarkup = (value) =>
     : `<div>${value}</div>`;
 
 const sectionMarkup = (section) => `
-  <section id="${section.id}" class="detail-section reveal">
+  <section id="${section.id}" class="detail-section ${section.insights ? "detail-section--insights" : ""} reveal">
     <div class="detail-rail" aria-hidden="true"></div>
     <div class="detail-text ${section.panel ? "detail-text--panel" : ""}">
       ${
@@ -294,6 +322,15 @@ const sectionMarkup = (section) => `
             <h3>${section.heading}</h3>
             ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
           `
+      }
+      ${
+        section.insights
+          ? `
+            <div class="insight-strip">
+              ${section.insights.map(insightTile).join("")}
+            </div>
+          `
+          : ""
       }
       ${
         section.quotes
@@ -347,6 +384,20 @@ const sectionMarkup = (section) => `
                 .join("")}
             </div>
           `
+          : ""
+      }
+      ${
+        section.solutionSteps
+          ? `
+            <div class="solution-flow">
+              ${section.solutionSteps.map(solutionStepMarkup).join("")}
+            </div>
+          `
+          : ""
+      }
+      ${
+        section.solutionSequence
+          ? solutionSequenceMarkup(section.solutionSequence)
           : ""
       }
       ${
@@ -446,7 +497,6 @@ const renderCaseStudy = (entry) => `
 
 const renderers = {
   home: renderHome,
-  motion: renderMotion,
   "about-frommenu": renderAbout,
   "untitledlyrics-fromhome": () => renderCaseStudy(siteData.cases.untitled),
   "stitch-fromhome": () => renderCaseStudy(siteData.cases.stitch),
@@ -455,6 +505,34 @@ const renderers = {
 
 app.innerHTML = (renderers[page] || renderHome)();
 document.title = siteData.title;
+
+const primeAutoplay = (video) => {
+  video.muted = true;
+  video.defaultMuted = true;
+  video.loop = true;
+  video.autoplay = true;
+  video.playsInline = true;
+  video.setAttribute("muted", "");
+  video.setAttribute("autoplay", "");
+  video.setAttribute("loop", "");
+  video.setAttribute("playsinline", "");
+  video.setAttribute("webkit-playsinline", "");
+
+  const attemptPlay = () => {
+    const playPromise = video.play();
+    if (playPromise && typeof playPromise.catch === "function") {
+      playPromise.catch(() => {});
+    }
+  };
+
+  if (video.readyState >= 2) {
+    attemptPlay();
+  } else {
+    video.addEventListener("loadeddata", attemptPlay, { once: true });
+  }
+};
+
+document.querySelectorAll("video").forEach(primeAutoplay);
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -472,9 +550,15 @@ document.querySelectorAll(".reveal").forEach((element) => observer.observe(eleme
 
 const projectStack = document.querySelector(".project-stack");
 if (projectStack) {
+  let projectStackScrollTimer;
+
   const suspendProjectHover = () => {
     if (projectStack.matches(":hover")) {
       projectStack.classList.add("is-hover-suspended");
+      window.clearTimeout(projectStackScrollTimer);
+      projectStackScrollTimer = window.setTimeout(() => {
+        projectStack.classList.remove("is-hover-suspended");
+      }, 120);
     }
   };
 

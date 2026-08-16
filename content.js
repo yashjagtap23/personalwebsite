@@ -1,41 +1,40 @@
 export const siteData = {
-  title: "Amy La",
+  title: "Yash Jagtap",
   nav: [
     { label: "Home", href: "" },
-    { label: "Motion", href: "motion/" },
     { label: "About", href: "about-frommenu/" }
   ],
   footer: {
-    headline: "Making creating easy and enjoyable for everyone.",
+    headline: "I build products where strategy, code, and business impact meet.",
     columns: [
       {
         title: "Navigation",
         links: [
           { label: "Home", href: "" },
-          { label: "Motion", href: "motion/" },
           { label: "About", href: "about-frommenu/" },
-          { label: "Resume", href: "https://drive.google.com/file/d/1bvhcYY6BdsTDBkpZZ7Ob2FGWuUCohDI1/view?usp=sharing" }
+          { label: "Resume", href: "assets/Yash-Jagtap-Resume.pdf" }
         ]
       },
       {
-        title: "Let's Chat",
+        title: "Connect",
         links: [
-          { label: "LinkedIn", href: "https://www.linkedin.com/in/amylalai/" },
-          { label: "Email", href: "mailto:amyla228@uw.edu" }
+          { label: "LinkedIn", href: "https://www.linkedin.com/in/yashjagtap23/" },
+          { label: "GitHub", href: "https://github.com/yashjagtap23" },
+          { label: "Email", href: "mailto:yashjagtapcollege@gmail.com" }
         ]
       },
       {
-        title: "Socials",
+        title: "Featured Work",
         links: [
-          { label: "X", href: "https://x.com/amylalai" },
-          { label: "Aren.a", href: "https://www.are.na/amy-la/channels" },
-          { label: "YouTube", href: "https://www.youtube.com/@amylalai" }
+          { label: "HackIllinois 2026", href: "untitledlyrics-fromhome/" },
+          { label: "Nurish", href: "stitch-fromhome/" },
+          { label: "HackIllinois 2025", href: "play-case-study/" }
         ]
       }
     ]
   },
   home: {
-    title: "Hi, I’m Yash, an aspiring PM and software engineer",
+    title: "Hi, I’m Yash. I build products with code, data, and user insight.",
     projects: [
       {
         href: "untitledlyrics-fromhome/",
@@ -65,62 +64,64 @@ export const siteData = {
       }
     ]
   },
-  motion: {
-    title: "Using movement to tell stories",
-    description: "A space where I try to make things move, flow, or bounce just right.",
-    canvasTone: "#d0bde1",
-    frameTone: "#ffffff",
-    videos: [
-      "https://github.com/amyla228/portfolio/raw/refs/heads/main/Export%20Menu%202.mp4",
-      "https://github.com/amyla228/portfolio/raw/refs/heads/main/Exported%20Shapes%202.mp4",
-      "https://github.com/amyla228/portfolio/raw/refs/heads/main/Screenshot%20Export%20from%20Lottielab.mp4"
-    ]
-  },
   about: {
-    badges: [
+    summary:
+      "Computer Science + Advertising at UIUC, product leadership at HackIllinois, and hands-on shipping across startup, enterprise, and growth teams.",
+    stats: [
       {
-        label: "usc",
-        image: "https://framerusercontent.com/images/JGB6cy02w2XnGghW5mAZ2LNWYNg.jpeg?width=1664&height=1664",
-        className: "badge-usc"
+        label: "Studying",
+        value: "UIUC CS + Advertising"
       },
       {
-        label: "svsd",
-        image: "https://framerusercontent.com/images/itZReqGe7aOulEVEXAmZbyIirjQ.jpeg?width=2326&height=2326",
-        className: "badge-svsd"
+        label: "Latest role",
+        value: "Capital One PM Intern"
       },
       {
-        label: "uw",
-        image: "https://framerusercontent.com/images/63SBFla64CE2Y42N5UOlreptb8.jpeg?width=2638&height=2638",
-        className: "badge-uw"
+        label: "Now",
+        value: "HackIllinois Co-Director"
       }
     ],
-    title: "Amy's story",
-    lead: "I craft products that help people create.",
+    title: "Yash's journey",
+    lead: "I like working where product strategy, engineering depth, and business context overlap.",
     paragraphs: [
-      "I’m from San Francisco, California but currently studying Human Centered Design and Engineering at UW Seattle. Previously, I studied public health at the University of Southern California, and did a bit of consulting work too.",
-      "I’m a creator who designs for creators. I find the creator space fascinating and I enjoy designing creator tools because it’s such a rich space with complex problems to solve. My mission is to make creating easy and enjoyable for everyone. I believe everyone is creative at heart: they just need the right tools to bring their ideas to life."
+      "I’m a Computer Science + Advertising student at the University of Illinois Urbana-Champaign with a 3.93 GPA and a bias toward shipping. My path has moved across student products, startup MVPs, enterprise platforms, and growth systems, but the common thread is simple: find the user pain clearly, turn it into a plan, and execute fast.",
+      "At HackIllinois, I helped take the mobile app from zero to one for 750+ attendees, coordinating design and engineering to ship authentication, deep links, maps, QR check-in, and event tools. At DapUp, I defined core product workflows for a NIL marketplace, iterated through 15+ interviews, and shipped wallet, analytics, and campaign dashboards in React and Firebase.",
+      "I’ve also done deeply technical product work. At Rocket Mortgage, I automated event parsing and measurement systems that reduced ad waste and improved attribution accuracy. At Capital One, I owned strategy for an AI ETL workflow that saves roughly $80K and 400+ engineering hours a year across 20 teams. I’m most energized by roles where I can sit close to the user, the roadmap, and the implementation at the same time."
     ],
-    heroPhoto: "https://framerusercontent.com/images/9GVdCqFrXHqnLRRWcsFG37p87o.jpeg?width=4032&height=3024",
-    gallery: [
-      "https://framerusercontent.com/images/itZReqGe7aOulEVEXAmZbyIirjQ.jpeg?width=2326&height=2326",
-      "https://framerusercontent.com/images/63SBFla64CE2Y42N5UOlreptb8.jpeg?width=2638&height=2638",
-      "https://framerusercontent.com/images/9GVdCqFrXHqnLRRWcsFG37p87o.jpeg?width=4032&height=3024"
+    journey: [
+      {
+        title: "Content to product",
+        body: "Building Rebels Wrestling into a 7K-subscriber channel taught me audience growth, analytics, SEO, and how feedback loops shape better products."
+      },
+      {
+        title: "Zero-to-one builder",
+        body: "HackIllinois gave me an operating ground for end-to-end PM work: requirements, prioritization, launch planning, and on-the-ground execution for attendee products."
+      },
+      {
+        title: "Startup + enterprise range",
+        body: "From DapUp MVP decisions to Capital One AI workflow strategy, I’ve worked across very different environments without losing speed or ownership."
+      },
+      {
+        title: "Leadership now",
+        body: "As Co-Director of HackIllinois and former VP of Product Space UIUC, I like building systems, teaching product thinking, and unblocking teams so good ideas actually ship."
+      }
     ],
     socials: [
-      { label: "@amylalai", href: "https://www.instagram.com/amylalai/" },
-      { label: "@amylalai", href: "https://www.tiktok.com/@amylalai" },
-      { label: "@amylalai", href: "https://www.youtube.com/@amylalai" }
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/yashjagtap23/" },
+      { label: "GitHub", href: "https://github.com/yashjagtap23" },
+      { label: "Email", href: "mailto:yashjagtapcollege@gmail.com" },
+      { label: "Resume", href: "assets/Yash-Jagtap-Resume.pdf" }
     ]
   },
   cases: {
     untitled: {
       slug: "untitled",
-      title: "Untitled x Lyrics",
+      title: "HackIllinois Event App",
       backHref: "",
       titleFont: "tiempos-text",
-      heroBackground: "https://framerusercontent.com/images/cJXGYhxzM4X1Mo7TmJyoBIbPhzE.png?width=2912&height=1632",
-      heroOverlay: "rgba(22, 36, 41, 0.52)",
-      heroScreenshot: "assets/reference/ref-untitled-full.png",
+      heroBackground: "assets/generated/untitled-space-bg-v2.png",
+      heroOverlay: "rgba(17, 10, 38, 0.28)",
+      heroScreenshot: "assets/generated/hackillinois-case-hero-v1.png",
       heroCrops: [
         { x: 188, y: 112, width: 288, height: 595 },
         { x: 496, y: 112, width: 288, height: 595 },
@@ -134,12 +135,12 @@ export const siteData = {
         { id: "learnings", label: "Learnings" }
       ],
       overview: {
-        summary: "My team and I designed a lyric feature for Untitled, an app for musicians to share and get feedback for their work-in-progress music. My contributions for this project include deep research into the music space, such as conducting user interviews with musicians and analyzing competitors, hashing out the user experience, and prototyping the Playground interaction for the user to tune the lyrics to their preference.",
+        summary: "My team and I designed the HackIllinois 2026 event app for attendees to navigate the weekend, stay on top of events, and interact with the hackathon beyond just hacking. My contributions for this project include shaping the attendee experience, defining feature priorities, working closely with design and engineering, and helping build flows for check-in, event discovery, reminders, and gamification.",
         meta: [
-          { term: "Role", value: "Product Designer" },
-          { term: "Timeline", value: "10/5/2025 - 10/11/25" },
-          { term: "Team", value: ["Piper Yu", "Justin Kim", "Maya Parthasarathy"] },
-          { term: "Skills", value: ["User research", "UIUX Design", "Prototyping"] }
+          { term: "Role", value: "Mobile Lead" },
+          { term: "Timeline", value: "06/2025 - 03/2026" },
+          { term: "Team", value: ["HackIllinois Mobile", "HackIllinois Design", "HackIllinois API"] },
+          { term: "Skills", value: ["Product strategy", "Interaction design", "iOS development"] }
         ]
       },
       sections: [
@@ -147,67 +148,78 @@ export const siteData = {
           id: "problem",
           kicker: "The Problem",
           panel: true,
-          heading: "Artists capture ideas for their songs in fragments — these get lost in voice memos, note apps, or worse, forgotten.",
-          paragraphs: ["How can we design a lightweight interaction for artists to capture and develop their ideas on-the-go?"]
+          heading: "Hackathons move fast - attendees are juggling schedules, locations, announcements, and side quests all weekend long.",
+          paragraphs: ["How can we design an event companion that helps attendees know what is happening, where to go, and how to participate without feeling overwhelmed?"]
         },
         {
           id: "research",
           kicker: "Research",
-          heading: "Key insights about the music space",
+          heading: "Key insights about the attendee experience",
           paragraphs: [],
-          media: [
+          insights: [
             {
-              type: "image",
-              src: "https://framerusercontent.com/images/yzEQX7Zj3al6EKx4r1d4tp2ZFs.jpeg?width=736&height=981",
-              span: "third",
-              ratio: "277 / 216"
+              image: "assets/generated/hackillinois-case-hero-v1.png",
+              body: "Attendees needed one place to keep up with ceremonies, workshops, sponsor events, meals, and deadlines throughout the weekend."
             },
             {
-              type: "video",
-              src: "https://github.com/amyla228/portfolio/raw/refs/heads/main/PunchingIn.mov",
-              span: "third",
-              ratio: "277 / 216"
+              image: "assets/generated/untitled-space-hero-v2.png",
+              body: "Because the app handled check-in, scanning, and points, it had to behave like event infrastructure rather than a nice extra."
             },
             {
-              type: "image",
-              src: "https://framerusercontent.com/images/uxA3wbfbdPMi85tyC5s1l8zt80.jpg?width=2880&height=1620",
-              span: "third",
-              ratio: "277 / 216"
+              image: "assets/generated/untitled-space-bg-v2.png",
+              body: "The strongest opportunity was reducing platform hopping by making schedule, event context, and participation live in one place."
             }
           ]
         },
         {
           id: "solution",
           kicker: "The Solution",
-          heading: "Help musical artists get to an initial draft of lyrics faster, while keeping the lyrics personal to them and customizable.",
-          paragraphs: [
-            "A friend sends the user a rough draft of a song. The user listens and chooses a specific section they want to add lyrics to, then creates a loop so that section plays again and again.",
-            "They begin punching in to that loop. They hum, mumble, harmonize, and test a couple of lyrics. With each loop, a new take is captured.",
-            "After replaying their recordings, they select the take with the most potential and generate lyrics that fit the rhythm of their own performance. They can then fine-tune rhyme style and variance until satisfied."
-          ],
-          solutions: [
-            { title: "Create a loop", body: "Zero in on the exact phrase or bar that needs words." },
-            { title: "Record rough takes", body: "Capture instinctive vocal experiments without breaking flow." },
-            { title: "Generate and tune", body: "Draft lyrics from the take and customize the rhyme structure." }
-          ],
-          media: [
-            { type: "image", src: "https://framerusercontent.com/images/yzEQX7Zj3al6EKx4r1d4tp2ZFs.jpeg?width=736&height=981", span: "half" },
-            { type: "image", src: "https://framerusercontent.com/images/uxA3wbfbdPMi85tyC5s1l8zt80.jpg?width=2880&height=1620", span: "half" }
+          heading: "Help attendees stay oriented throughout the weekend, while making the event feel more interactive and rewarding.",
+          paragraphs: [],
+          solutionSteps: [
+            {
+              title: "User opens the home screen and immediately sees what matters now",
+              body: "An attendee arrives at Siebel and checks in through the app. From the home screen, they can quickly understand the current moment, the next event, and the parts of the weekend that need attention first.",
+              video: "assets/videos/hackillinois-solution/homepage.mp4"
+            },
+            {
+              title: "User checks the schedule to decide where to go next",
+              body: "Throughout the weekend, they browse ceremonies, workshops, sponsor events, meals, and deadlines in one place. Instead of depending on scattered updates across channels, the schedule becomes the fastest way to stay in sync with the hackathon.",
+              video: "assets/videos/hackillinois-solution/schedule.mp4"
+            },
+            {
+              title: "User jumps into duels and side quests across the weekend",
+              body: "The app goes beyond logistics by giving attendees lightweight ways to participate. Duels turn the event into something active and social instead of just a schedule to follow.",
+              video: "assets/videos/hackillinois-solution/duels.mp4"
+            },
+            {
+              title: "User redeems rewards in the item shop as they earn points",
+              body: "As attendees scan into events and complete activities, the points system creates a visible loop. The item shop makes progress tangible and keeps the gamification layer tied to real event behavior.",
+              video: "assets/videos/hackillinois-solution/itemshop.mp4"
+            },
+            {
+              title: "User checks their profile to track progress and activity",
+              body: "The profile gives attendees one place to see their standing, progress, and event participation. It helps the app feel like a connected system rather than a set of disconnected tools.",
+              video: "assets/videos/hackillinois-solution/profile.mp4"
+            }
           ]
         },
         {
           id: "learnings",
           kicker: "Learnings",
           heading: "Key Takeaways",
-          paragraphs: [],
+          paragraphs: [
+            "After the event, I reviewed 51 attendee responses to understand which parts of the app held up in the real environment. The app averaged a 4.3/5 for ease of finding information and features, which validated that the core structure was working.",
+            "The feedback also made the hierarchy of the product very clear. Schedule, QR Code Scanner, and Points Shop were the most frequently used features by a wide margin, while the biggest issues centered on QR discoverability, points-shop clarity, game-feature confusion, and unreliable notifications."
+          ],
           takeaways: [
             {
-              title: "Visualize as early as possible",
-              body: "When the team felt stuck on a product decision, the fastest way forward was to draw or prototype the interface instead of arguing in abstraction."
+              title: "The core product was schedule + scanning + points",
+              body: "In the survey, Schedule appeared in 44 responses, QR Code Scanner in 36, and Points Shop in 29. Those features carried the event experience, so they deserved the highest level of polish and reliability."
             },
             {
-              title: "Immerse into the problem space",
-              body: "I knew little about the music space at first, so I learned everything I could. Better domain fluency led to better product decisions."
+              title: "Gamification works best when it stays legible",
+              body: "Attendees liked earning points, but they also wanted clearer rules, cleaner redemption, faster QR access, and more reliable updates. The game layer worked best when it reinforced the event instead of adding ambiguity."
             }
           ]
         }
@@ -325,7 +337,7 @@ export const siteData = {
           ]
         }
       ],
-      related: { label: "Untitled x Lyrics", href: "untitledlyrics-fromhome/" }
+      related: { label: "HackIllinois Event App", href: "untitledlyrics-fromhome/" }
     },
     play: {
       slug: "play",
